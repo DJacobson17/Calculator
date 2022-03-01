@@ -2,6 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: royalblue;
 }
 
 .container {
@@ -39,14 +40,18 @@ body {
 button {
     border-radius: 15%;
     font-size: 30px;
+    width : 40px;
+    margin: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.button {
-    width: 50px;
-    margin: 1px;
+.special {
+    width: 100px;
+}
+.buttonOperator {
+    color: rgb(47, 100, 23);
 }
 #equals {
     background-color: rgb(236, 170, 103);
