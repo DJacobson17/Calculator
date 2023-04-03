@@ -3,7 +3,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: royalblue;
+    background-image:url(https://media.tenor.com/5vo_w_jDfwgAAAAC/calculation-math.gif);
+    background-size: cover;
 }
 
 .container {
@@ -14,6 +15,8 @@ body {
     width: 25vw;
     height: 60vh;
     background-color: rgb(88, 78, 78);
+    opacity: .7;
+    box-shadow: 10px 5px 5px;
     border-radius: 1rem;
     padding: 8px;
     
