@@ -33,6 +33,7 @@ body {
     align-items: center;
     font-size: 2rem;
     overflow: scroll;
+    border: 4px inset gray;
     font-family:  'Orbitron', sans-serif;;
 }
 
@@ -51,6 +52,9 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 4px 2px 2px black;
+    cursor: pointer;
+
 
 }
 .special {
