@@ -70,7 +70,7 @@ function clearValue() {
 clearButton = document.getElementById('clear');
 clearButton.addEventListener('click', event2 => {
     clearValue();
-    displayValue("");
+    screen.innerHTML = "0";
     x = 0;
     y = 0;
 })

@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: royalblue;
@@ -7,40 +8,42 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    width: 200px;
-    height: 300px;
+    width: 25vw;
+    height: 60vh;
     background-color: rgb(88, 78, 78);
-    border-radius: 15%;
+    border-radius: 1rem;
+    padding: 8px;
     
 }
 
 #display {
-    height: 40px;
+    height: 8vh;
     background-color: paleturquoise;
     display: flex;
-    width:170px;
-    height: 50px;
+    border-radius: calc(1rem - 8px);
+    width: 23vw;
+    height: 10.5vh;
     justify-content: end;
     align-items: center;
-    font-size: 35px;
-    margin-bottom: 5px;
+    font-size: 90%;
+    overflow: scroll;
     font-family:  'Orbitron', sans-serif;;
 }
 
 .buttonRow {
-    height: 35px;
+    height: 10.5vh;
     display: flex;
-    width: 170px;
+    width: 23vw;
     justify-content: space-between;
     margin-top: 5px;
 }
 button {
     border-radius: 15%;
     font-size: 30px;
-    width : 40px;
+    width : 5vw;
     margin: 1px;
     display: flex;
     align-items: center;
@@ -48,7 +51,7 @@ button {
 
 }
 .special {
-    width: 100px;
+    width: 12.5vw;
 }
 .buttonOperator {
     color: rgb(47, 100, 23);
