@@ -60,3 +60,23 @@ button {
     background-color: rgb(236, 170, 103);
     color: white;
 }
+
+@media (max-width: 768px) {
+    .container {
+    width: 90vw;
+    height: 90vh;
+    }
+
+    .buttonRow, #display {
+        width: 80%;
+    }
+
+    button {
+        width: 20vw;
+    }
+
+    .special {
+        width: 40vw
+    }
+}
+
